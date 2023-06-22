@@ -6410,12 +6410,11 @@ expo-asset@~8.5.0:
     path-browserify "^1.0.0"
     url-parse "^1.5.9"
 
-expo-camera@^12.2.0:
-  version "12.2.0"
-  resolved "https://registry.yarnpkg.com/expo-camera/-/expo-camera-12.2.0.tgz#22c01a917e2a753b09bd28c0fdb2385f2444abf8"
-  integrity sha512-+YuVJsG/BdW7US5pkwHPXiFr7Kf37kGR5sgRqT3JzPUJaSkLlmepb/uAAyoYtVe8Zd/vD2H/YrYVTVaX3Xhqrw==
+expo-camera@^13.0.0:
+  version "13.2.1"
+  resolved "https://registry.yarnpkg.com/expo-camera/-/expo-camera-13.2.1.tgz#bfd1e2248d10a5da43d43a4cc77e378e5acf25bb"
+  integrity sha512-fZdRyF402jJGGmLVlumrLcr5Em9+Y2SO1MIlxLBtHXnybyHbTRMRAbzVapKX1Aryfujqadh+Kl+sdsWYkMuJjg==
   dependencies:
-    "@expo/config-plugins" "^4.0.14"
     "@koale/useworker" "^4.0.2"
     invariant "^2.2.4"
 
@@ -6432,7 +6431,14 @@ expo-error-recovery@~3.1.0:
   resolved "https://registry.yarnpkg.com/expo-error-recovery/-/expo-error-recovery-3.1.0.tgz#c841772e11ed55180e30ebf809580ab051b70535"
   integrity sha512-qUxCW7kPB6AVX5h3ZPVnxw4LLZWsRwAPBtRDlh1UDN7GWZ+CQN1SNk0w0BPotjNtSlXEZSFDqKqtoDDAUYjNmg==
 
-expo-file-system@^14.0.0, expo-file-system@~14.0.0:
+expo-file-system@^15.0.0:
+  version "15.2.2"
+  resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-15.2.2.tgz#a1ddf8aabf794f93888a146c4f5187e2004683a3"
+  integrity sha512-LFkOLcWwlmnjkURxZ3/0ukS35OswX8iuQknLHRHeyk8mUA8fpRPPelD/a1lS+yclqfqavMJmTXVKM1Nsq5XVMA==
+  dependencies:
+    uuid "^3.4.0"
+
+expo-file-system@~14.0.0:
   version "14.0.0"
   resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-14.0.0.tgz#8367af10969a486fcba2f1e1c7cc0148f855e962"
   integrity sha512-Asva7ehLUq/PIem6Y+/OQvoIqhFqYDd7l4l49yDRDgLSbK2I7Fr8qGhDeDpnUXrMVamg2uwt9zRGhyrjFNRhVw==
