@@ -9,7 +9,7 @@
     "test": "node run_tests.js"
   },
   "dependencies": {
-    "@tensorflow/tfjs-node": "^2.6.0",
+    "@tensorflow/tfjs-node": "^4.20.0",
     "argparse": "^1.0.10"
   },
   "devDependencies": {
