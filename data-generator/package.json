@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.22.7",
     "@tensorflow/tfjs": "^2.8.2",
     "@tensorflow/tfjs-vis": "^1.4.3"
   },
