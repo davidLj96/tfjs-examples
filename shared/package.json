@@ -9,7 +9,7 @@
     "build-css": "node-sass tfjs-examples.scss tfjs-examples.css"
   },
   "dependencies": {
-    "node-sass": "^7.0.1"
+    "node-sass": "^9.0.0"
   },
   "devDependencies": {
     "cssnano": "^5.1.4"
